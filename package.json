@@ -13,14 +13,6 @@
     "sass": "^1.50.0"
   },
   "dependencies": {
-    "gulp": "^3.9.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MalikIT99/SASS-Library.git"
-  },
-  "bugs": {
-    "url": "https://github.com/MalikIT99/SASS-Library/issues"
-  },
-  "homepage": "https://github.com/MalikIT99/SASS-Library#readme"
+    "gulp": "^4.0.2"
+  }
 }
