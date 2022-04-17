@@ -4,7 +4,8 @@
 
 // base & layout
 @import'_base.scss';
-
+@import'_breakpoints';
+@import'_grid.scss';
 // colors
 @import '_colors.scss';
 
