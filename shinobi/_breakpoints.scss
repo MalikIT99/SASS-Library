@@ -50,7 +50,7 @@ $breakpoints: (
         color: purple;
     }
     @include xl{
-        color:green;
+        color:$primary;
     }
     @include breakpoint(1400px){
         color: pink;
