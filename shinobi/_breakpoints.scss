@@ -38,22 +38,27 @@ $breakpoints: (
 }
 .responsive-test {
     @include xs{
-        color: red;
+        color: #a9cb4e;
+        background-color: #EBD671;
     }
     @include sm{
-        color: blue;
+        color: $info;
+        background-color: $secondary;
     }
     @include md{
         color: $secondary;
+        background-color: #cbd882;
     }
     @include lg{
         color: purple;
+        background-color: #B8FFF9;
     }
     @include xl{
-        color:$primary;
+        color:#1B1A17;
+        background-color: $secondary;
     }
     @include breakpoint(1400px){
-        color: pink;
+        color: #FAFDD6;
     }
 }
 

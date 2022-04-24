@@ -58,32 +58,37 @@ button {
 
 @media (min-width: 0) {
   .responsive-test {
-    color: red;
+    color: #a9cb4e;
+    background-color: #EBD671;
   }
 }
 @media (min-width: 480px) {
   .responsive-test {
-    color: blue;
+    color: #f6c31c;
+    background-color: #1ac888;
   }
 }
 @media (min-width: 720px) {
   .responsive-test {
     color: #1ac888;
+    background-color: #cbd882;
   }
 }
 @media (min-width: 960px) {
   .responsive-test {
     color: purple;
+    background-color: #B8FFF9;
   }
 }
 @media (min-width: 1200px) {
   .responsive-test {
-    color: #3299ef;
+    color: #1B1A17;
+    background-color: #1ac888;
   }
 }
 @media (min-width: 1400px) {
   .responsive-test {
-    color: pink;
+    color: #FAFDD6;
   }
 }
 
@@ -699,7 +704,7 @@ button {
   background-color: #c2ff99;
 }
 
- .navbar-secondary .container, .navbar-secondary {
+.navbar .container, .navbar-secondary .container, .navbar, .navbar-secondary {
   width: 100%;
   display: flex;
   align-items: center;
@@ -707,11 +712,11 @@ button {
   box-sizing: border-box;
 }
 
- .navbar-secondary {
+.navbar, .navbar-secondary {
   padding: 0.75rem 1.5rem;
   box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.1);
 }
- .navbar-secondary .site-title {
+.navbar .site-title, .navbar-secondary .site-title {
   font-size: 1.5rem;
 }
 
